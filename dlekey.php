@@ -9,7 +9,7 @@
 
 $dleKey = new KeyGen();
 $dleKey->filePath = 'engine/inc/include/init.php';
-$dleKey->file_config = 'engine/data/config_d.php';
+$dleKey->file_config = 'engine/data/config.php';
 echo $dleKey->setKey();
 
 
