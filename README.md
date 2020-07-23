@@ -1,9 +1,9 @@
 # DLE Activator
 Script for automatic activation of the DLE engine.
 
-## Support
+## Version support
 
-Correct on DLE 14 version.
+Works on DLE 14 version.
 Should work on version 13+ too.
 
 ## Using 
