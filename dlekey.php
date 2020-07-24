@@ -10,7 +10,7 @@
 $dleKey = new KeyGen();
 $dleKey->filePath = 'engine/inc/include/init.php';
 $dleKey->file_config = 'engine/data/config.php';
-echo $dleKey->setKey();
+$dleKey->setKey();
 
 
 class  KeyGen
@@ -62,7 +62,7 @@ class  KeyGen
             $text = '';
             foreach ($data as $row) {
                 if (strpos($row, "'key'") !== false) {
-                    $row = "'key' => '" . $this->getKey() . 'xxx' . "',";
+                    $row = "'key' => '" . $this->getKey() . "',";
                 }
                 $text .= $row . PHP_EOL;
             }
