@@ -8,6 +8,14 @@ Should work on version 13+ too.
 
 ## Using 
 
+0. Make sure that you have the rights to read and write files, if not, then write down the rights 755
+
+  ```
+  engine/inc/include/init.php
+  engine/data/config.php
+  
+  ```
+
 1. Upload the **dlekey.php** file to the root of the project directory
 
 3. Run and enjoy
